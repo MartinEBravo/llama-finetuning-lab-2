@@ -35,7 +35,7 @@ Hyperparameters are the parameters that are set before the learning process begi
 2. `lora_alpha`: Maintained at 16, it is the alpha value used in the LoRA algorithm.
 3. `use_rslora`: Changed from False to True, it is a boolean value that determines whether to use the RSLora algorithm.
 4. `packing`: Changed from False to True, it is a boolean value that determines whether to use the packing algorithm to combine the input and output embeddings.
-5. `warmup_steps`: Changed from 5 to 1250, it is the number of steps used to warm up the model before training ($0.1 \cdot \text{total\_steps}$).
+5. `warmup_steps`: Changed from 5 to 1250, it is the number of steps used to warm up the model before training ($0.1 \cdot \text{total steps}$).
 6. `learning_rate`: Changed from 1e-4 to 1e-3, it is the rate at which the model learns.
 
 Using this changes we were able to reduce the estimated time of training from 23 hours to 11 hours.
