@@ -4,8 +4,8 @@
 
 - [Inference UI](https://colab.research.google.com/drive/1CRTV5uNRT-Rk7rsGqL3GEIhFwbuy7lml#scrollTo=jNBFguh2yIoQ)
 - [FineTome Finetuning](https://colab.research.google.com/drive/1JQtX5wP8P3R2MpMs4bpaqfX2TGivr2Ya#scrollTo=QmUBVEnvCDJv)
+- [Hyperparameter Tuning](https://colab.research.google.com/drive/1LVJRXGl-tCTuCCpqSm9p7SsXQ_DrN5Nb#scrollTo=95_Nn-89DhsL)
 - [Emoji Finetuning](https://colab.research.google.com/drive/1WNthcDGTddGWGUju0cBKd2Qh_HXwL8XD#scrollTo=upcOlWe7A1vc)
-- [Hyperparameter Tuning]https://colab.research.google.com/drive/1LVJRXGl-tCTuCCpqSm9p7SsXQ_DrN5Nb#scrollTo=95_Nn-89DhsL)
 
 ## Introduction
 
