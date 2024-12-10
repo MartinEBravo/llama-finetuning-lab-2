@@ -47,8 +47,6 @@ The results can be tested using the `finetuning-model-centric` file.
 
 ### Data-Centric Fine-Tuning: Identifying Emojis 😁
 
-Code: 
-
 Although, the model was able to process and identify when the text was an emoji, it could not identify the emoji it self:
 
 #### FineTome Dataset Finetuned to Identify Emojis
