@@ -81,6 +81,8 @@ Some examples on how to improve the model's performance are:
 
 - We could also increase the batch size, this would allow the model to process more data at the same time.
 
+– We can also change the weight decay, a regularization technique that reduces the model's overfitting, if we increase the weight decay, it is less likely that the model will overfit the data, but it is also possible that the model will not learn the data correctly.
+
 - Finally, we could increase the gradient accumulation, this allows the model to have more stable gradients and 
 
 In the last task, we fine-tuned the `llama-3.1 1B` model using the FineTome dataset. The model was fine-tuned using the LoRA algorithm and 4bit quantization. The hyperparameters that were changed are:
