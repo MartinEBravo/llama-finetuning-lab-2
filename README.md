@@ -30,6 +30,41 @@ To test the model and access the Inference UI, please click [here](https://colab
 
 The vanilla `llama-3.1 3B` model was trained for 1000 steps using the FineTome dataset. Just to compare it with the fine-tuned model.
 
+### Results
+
+We tested the model using the following exam:
+
+### Questions
+
+1. Who wrote the novel *Pride and Prejudice*?
+
+2. If all roses are flowers and some flowers fade quickly, can we conclude that some roses fade quickly?
+
+3. Solve for \( x \): \( 2x + 3 = 7 \).
+
+4. What does the following Python code output?
+
+```python
+nums = [1, 2, 3]
+print(nums[::-1])
+```
+
+5. What is the chemical symbol for water?
+
+6. In the sentence, “After the meeting, she decided to write a follow-up email,” what does “follow-up email” mean?
+
+7. In which year did the Berlin Wall fall?
+
+8. Paraphrase the following sentence: “The quick brown fox jumps over the lazy dog.”
+
+9. What is the time complexity of a binary search algorithm?
+
+10. Is it ethical to use someone’s personal data without their consent?
+
+"""
+
+- Llama 1B - Finetuned w/ Finetome : 0.6 points
+
 ## Task 2
 
 ### Model-Centric Fine-Tuning
