@@ -53,7 +53,7 @@ Therefore, we decided to fine-tune the model using the Emoji Dataset. The datase
 
 ![alt text](imgs/image-2.png)
 
-We can see that the descriptions are more accurate and the model is able to identify the emojis correctly.
+We can see that the descriptions are more accurate and the model is able to identify the emojis correctly due to the specific training on the Emoji dataset.
 
 
 ![alt text](imgs/image-6.png)
