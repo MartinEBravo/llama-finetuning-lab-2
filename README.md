@@ -38,7 +38,12 @@ Hyperparameters are the parameters that are set before the learning process begi
 5. `warmup_steps`: Changed from 5 to 1250, it is the number of steps used to warm up the model before training ($0.1 \cdot \text{total steps}$).
 6. `learning_rate`: Changed from 1e-4 to 1e-3, it is the rate at which the model learns.
 
-Using this changes we were able to reduce the estimated time of training from 23 hours to 11 hours.
+The model of Task 1 took us 14 hours and 7 different Google accounts to train, using the Hyperparameter tuning, we were able to train the model in 8 hours and 3 Google accounts. For this case we used half of the dataset to train the model and estimate the final time:
+
+- `llama-3.1 1B` FineTome: 14 hours
+- `llama-3.1 1B` Hyperparameter Tuning: 8 hours (4 hours to train half of the dataset)
+
+The results can be tested using the `finetuning-model-centric` file.
 
 ### Data-Centric Fine-Tuning: Identifying Emojis 😁
 
