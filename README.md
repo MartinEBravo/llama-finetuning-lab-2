@@ -20,7 +20,7 @@ In the following repository we are going to fine-tune a pre-trained model using 
 
 What we did first was to Finetune the `llama-3.1 1B` model using the FineTome dataset. We used the LoRA algorithm and 4bit quantization to fine-tune the model and also we created an Inference UI to test the model using Gradio:
 
-![alt text](imgs/image-6.png)
+![alt text](imgs/ui.png)
 
 We can see that we can input a text and a recording using Whisper. The model will then generate a response based on the input text and audio file. There is also a Dropdown list where the user can select the model to use based on all the models that were fine-tuned.
 
